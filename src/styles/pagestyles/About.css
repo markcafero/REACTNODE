@@ -1,0 +1,9 @@
+#about {
+    color: tomato;
+    height: 100vh;
+}
+
+
+#about-header{
+    grid-column: 1/13;
+}

@@ -1,0 +1,39 @@
+
+#nav-bar {
+    height: 25px;
+    background-color:white;
+    display: grid;
+    grid-template-columns: 5vh 1fr 5vh;
+  }
+  
+  #main-nav {
+    grid-column: 2/3;
+    display: grid;
+    max-width: 90vw;
+    grid-template-columns: repeat(5, 1fr);
+   
+  
+  }
+  
+  #main-nav li {
+    list-style: none;
+    text-decoration: none;
+    display: inline;
+  }
+  
+  .main-nav-link {
+    color: rgb(59, 59, 59);
+    text-decoration: none;
+    margin: 10px;
+    font-size: 10px ;
+  }
+  
+  .main-nav-link:hover {
+    color: rgb(118, 179, 173);
+  }
+  
+  .main-nav-link-active{
+    color: rgb(118, 179, 173);
+  }
+  
+  
